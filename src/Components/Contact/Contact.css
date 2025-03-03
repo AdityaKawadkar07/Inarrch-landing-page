@@ -43,7 +43,11 @@
     outline: 0;
     margin-top:5px;
     resize: none;
+    font-size: 16px;
+    color: #212121;
+    border-radius: 5px
 }
+
 .contact-col span{
     display: block;
     margin: 20px 0;

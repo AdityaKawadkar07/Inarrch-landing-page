@@ -1,38 +1,22 @@
-import React, { useState } from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import Programs from './Components/Programs/Programs'
-import Title from './Components/Title/Title'
-import About from './Components/About/About'
-import Usp from './Components/USP/Usp'
-import Testimonials from './Components/Testimonials/Testimonials'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import GraphicDesign from "./pages/GraphicDesign/GraphicDesign";
+import DigitalMarketing from "./pages/DigitalMarketing/DigitalMarketing";
+import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
+import MbaInternship from "./pages/MbaInternship/MbaInternship";
 
 const App = () => {
-
-  const [playState,setPlayState] = useState(false);
-
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <div className="container">
-        <Title subTitle='Our Program' title='What We Offer'/>
-        <Programs/>
-        <About setPlayState={setPlayState}/>
-        <Title subTitle='Innovative Solutions' title='Why Choose Us'/>
-        <Usp/>
-        <Title subTitle='TESTIMONIALS' title='Team Experiences '/>
-        <Testimonials/>
-        <Title subTitle='Contact US' title='Get in Touch '/>
-        <Contact/>
-        <Footer/>
-      </div>
-      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/graphic-design" element={<GraphicDesign/>} />
+        <Route path="/digital-marketing" element={<DigitalMarketing/>} />
+        <Route path="/web-development" element={<WebDevelopment/>} />
+        <Route path="/mba-internship" element={<MbaInternship/>} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

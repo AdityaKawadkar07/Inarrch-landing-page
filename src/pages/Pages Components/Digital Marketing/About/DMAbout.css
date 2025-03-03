@@ -1,0 +1,364 @@
+/* General Styling */
+.dm-about {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+}
+
+.dm-about-container h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #212EA0;
+    text-transform: uppercase;
+}
+
+.dm-about-container h2 {
+    font-size: 32px;
+    color: #000F38;
+    margin: 10px 0;
+    max-width: 500px;
+    font-weight: bold;
+}
+
+.dm-about-container p {
+    color: #4A4A4A;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.dm-about-container a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    background-color: #212EA0;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dm-about-container a:hover {
+    background-color: #17208A;
+    transform: translateY(-3px);
+}
+
+/* Styling for 'Why is Graphic Design Important?' Section */
+.dm-about-importance {
+    background: linear-gradient(to right, #F8F9FA, #E3E7ED);
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dm-about-importance:hover {
+    transform: translateY(-8px);
+}
+
+.dm-about-importance-left {
+    flex: 1;
+}
+
+.dm-about-importance-right {
+    flex: 1;
+    text-align: center;
+}
+
+.dm-about-importance-right img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+/* 'Where is Graphic Design Used?' Section */
+.dm-about-used {
+    background: #fff;
+    border: 2px solid #212EA0;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dm-about-used:hover {
+    transform: scale(1.02);
+}
+
+.dm-about-used-left {
+    flex: 1;
+}
+
+.dm-about-used-right {
+    flex: 1;
+    text-align: center;
+}
+
+.dm-about-used-right img {
+    width: 100px;
+    opacity: 0.8;
+}
+
+/* Conclusion Section */
+.dm-about-conclusion {
+    text-align: center;
+    background: linear-gradient(135deg, #212EA0, #141C82);
+    color: white;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.dm-about-conclusion h2 {
+    font-size: 36px;
+    margin: 0 auto 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    max-width: 700px; /* Ensuring the heading width matches the text width */
+}
+.dm-about-conclusion h3{
+    color: white;
+}
+
+.dm-about-conclusion p {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: #F8F9FA;
+    font-weight: 400;
+}
+
+/* Interactive List */
+.dm-about-conclusion ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 650px;
+    text-align: left;
+}
+
+.dm-about-conclusion ul li {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.dm-about-conclusion ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(10px);
+}
+
+.dm-about-conclusion ul li::before {
+    content: "✔";
+    font-size: 20px;
+    margin-right: 15px;
+    color: #FFD700;
+}
+
+/* Call-to-Action Button */
+.dm-about-conclusion a {
+    display: inline-block;
+    background-color: white;
+    color: #212EA0;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.dm-about-conclusion a:hover {
+    background-color: #F8F9FA;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Decorative Rocket Icon */
+.dm-about-conclusion::after {
+    content: "🚀";
+    font-size: 60px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.8;
+    animation: float 3s infinite ease-in-out;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 800px) {
+    .dm-about-importance, .dm-about-used {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .dm-about-importance-right img, .dm-about-used-right img {
+        max-width: 100%;
+    }
+
+    .dm-about-conclusion::after {
+        display: none;
+    }
+}
+
+.dm-about-strategy {
+    margin: 50px auto;
+    width: 90%;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dm-about-strategy:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Left Content */
+.dm-about-strategy-left {
+    flex-basis: 55%;
+    padding-right: 20px;
+}
+
+.dm-about-strategy-right {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dm-about-strategy-right img {
+    width: 100%;
+    border-radius: 10px;
+    /* max-width: 40px; Limit the size of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dm-about-strategy h2 {
+    font-size: 30px;
+    color: #000F38;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dm-about-strategy p {
+    font-size: 18px;
+    color: #676767;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.dm-about-strategy ul {
+    padding-left: 25px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.dm-about-strategy ul li {
+    font-size: 18px;
+    color: #212EA0;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.dm-about-strategy ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+.dm-about-strategy a {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #212EA0;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.dm-about-strategy a:hover {
+    background-color: #212EA0;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 840px) {
+    .dm-about-strategy {
+        flex-direction: column;
+    }
+
+    .dm-about-strategy-left, .dm-about-strategy-right {
+        flex-basis: 100%;
+    }
+
+    .dm-about-strategy-right img {
+        max-width: 100%;
+    }
+}
+@media (max-width: 840px) {
+    .dm-about {
+        flex-direction: column;
+    }
+
+    .dm-about-left, .dm-about-right {
+        flex-basis: 100%;
+    }
+
+    .dm-about-right img {
+        max-width: 100%;
+    }
+}

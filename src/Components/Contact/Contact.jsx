@@ -39,11 +39,11 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-            <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our Collaborators</p>
+            <h3>Send Us an Enquiry<img src={msg_icon} alt="" /></h3>
+            <p>Have questions or looking for more details? Feel free to reach out through our enquiry form or find our contact information below. Whether it’s about our services, collaboration opportunities, or general queries, we’re here to assist you. Your feedback and enquiries matter to us as we continue to provide exceptional service to our collaborators.</p>
             <ul>
                 <li><img src={mail_icon} alt="" />Inarrch@gmail.com</li>
-                <li><img src={phone_icon} alt="" />+1 123-456-789</li>
+                <li><img src={phone_icon} alt="" />+91 772-003-6593</li>
                 <li><img src={location_icon} alt="" />Nagpur-440027 <br />Maharashtra,India</li>
             </ul>
         </div>
@@ -55,9 +55,12 @@ const Contact = () => {
                 <input type="tel" name='phone' placeholder='Enter your mobile number' required/>
                 <label>Email</label>
                 <textarea name="email"  placeholder='Enter your email id' required></textarea>
+                <label>Want to apply for??</label>
+                <input type="text" name='Program' placeholder='Enter the program you are interested to apply for?' required/>
                 <label>Write your messages here</label>
+
                 <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
-                <button type='submit' className='submit-btn'>Submit Now <img src={white_arrow} alt="" /></button>
+                <button type='submit' className='submit-btn'>Enquire Now <img src={white_arrow} alt="" /></button>
             </form>
             <span>{result}</span>
         </div>
