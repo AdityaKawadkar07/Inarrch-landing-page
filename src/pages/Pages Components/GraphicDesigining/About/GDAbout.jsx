@@ -66,10 +66,10 @@ const GDAbout = () => {
         </p>
         <p>
         <ul>
-            <li>Build a Strong Identity – Stand out from competitors</li>
-            <li>Increase Engagement – Grab audience attention</li>
-            <li>Boost Conversions – Persuasive visuals drive sales</li>
-            <li>Enhance Communication – Deliver messages effectivel</li>
+            <li>Build a Strong Identity</li>
+            <li>Increase Engagemen</li>
+            <li>Boost Conversions</li>
+            <li>Enhance Communication</li>
         </ul>        
         </p>
         <p>
@@ -84,14 +84,12 @@ const GDAbout = () => {
         <p>
         From billboards to social media—design is everywhere!
         </p>
-        <p>Graphic design plays a crucial role in:</p>
         <p>
         <ul>
-            <li>Branding & Logo Design – Identity creation</li>
-            <li>Marketing & Advertising – Social media, posters & digital ads</li>
-            <li>Website & UI/UX Design – Creating user-friendly interfaces</li>
-            <li>Print Media – Magazines, brochures & packaging</li>
-            <li>Freelancing & Remote Work – Work from anywhere, anytime</li>
+            <li>Branding & Logo Design</li>
+            <li>Marketing & Advertising</li>
+            <li>Website & UI/UX Design </li>
+            <li>Print Media</li>
         </ul>
         </p>
         <p>

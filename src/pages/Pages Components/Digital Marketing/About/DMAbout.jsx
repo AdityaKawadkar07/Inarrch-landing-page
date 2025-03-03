@@ -82,14 +82,12 @@ const DMAbout = () => {
         <p>
         From small businesses to Fortune 500 companies—everyone needs digital marketing!
         </p>
-        <p>Digital marketing is everywhere:</p>
         <p>
         <ul>
-            <li> E-commerce – Drive traffic & sales</li>
-            <li> Startups & SMEs – Build a strong online presence</li>
-            <li> Corporate Businesses – Expand market reach</li>
-            <li> Freelancing & Remote Jobs – Earn from anywhere</li>
-            <li> Personal Branding – Establish your authority</li>
+            <li> E-commerce</li>
+            <li> Startups & SMEs</li>
+            <li> Corporate Businesses</li>
+            <li> Freelancing & Remote Jobs</li> 
         </ul>
         </p>
         <p>

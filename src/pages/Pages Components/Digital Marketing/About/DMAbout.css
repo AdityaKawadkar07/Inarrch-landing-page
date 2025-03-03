@@ -74,6 +74,9 @@
     flex: 1;
     text-align: center;
 }
+.dm-about-importance li {
+    width: 200px;
+}
 
 .dm-about-importance-right img {
     max-width: 80%;
@@ -104,7 +107,9 @@
     flex: 1;
     text-align: center;
 }
-
+.dm-about-used li{
+    width: 200px;
+}
 .dm-about-used-right img {
     width: 100px;
     opacity: 0.8;

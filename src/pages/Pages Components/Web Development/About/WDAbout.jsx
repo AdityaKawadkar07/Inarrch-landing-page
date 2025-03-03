@@ -65,10 +65,10 @@ const WDAbout = () => {
         </p>
         <p>
         <ul>
-            <li>First Impressions – A professional website builds trust</li>
-            <li>User Experience (UX) – Easy navigation keeps users engaged</li>
-            <li>SEO & Visibility – Search engine-friendly design improves ranking</li>
-            <li>Business Growth – High-converting websites drive revenue</li>
+            <li>First Impressions</li>
+            <li>User Experience (UX)</li>
+            <li>SEO & Visibility</li>
+            <li>Business Growth</li>
         </ul>        
         </p>
         <p>
@@ -82,14 +82,13 @@ const WDAbout = () => {
         <p>
         Every business, brand, and professional needs a website—are you ready to create them?
         </p>
-        <p>Web designing is essential for:</p>
         <p>
         <ul>
-            <li>Corporate & Business Websites – Build an online presence</li>
-            <li>E-commerce Platforms – Design engaging online stores</li>
-            <li>Portfolio & Personal Branding Sites – Showcase work and attract clients</li>
-            <li>Landing Pages & Marketing Funnels – Generate leads & conversions</li>
-            <li>Freelancing & Remote Jobs – Earn from anywhere in the world</li>
+            <li>Corporate & Business Websites</li>
+            <li>E-commerce Platforms</li>
+            <li>Portfolio & Personal Branding Sites</li>
+            <li>Landing Pages & Marketing Funnels</li>
+            <li>Freelancing & Remote Jobs</li>
         </ul>
         </p>
         <p>

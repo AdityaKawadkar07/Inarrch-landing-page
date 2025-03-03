@@ -19,10 +19,10 @@ const About = ({setPlayState}) => {
         </p>
         <p>
         <ul>
-<li>✅ Industry Expertise – Skilled marketers, developers, and SEO specialists.</li>
-<li>✅ Results-Driven – Proven strategies backed by analytics.</li>
-<li>✅ Custom Solutions – Scalable strategies for startups & enterprises.</li>
-<li>✅ Trust & Transparency – Ethical practices and data security.</li>
+<li>Industry Expertise – Skilled marketers, developers, and SEO specialists.</li>
+<li>Results-Driven – Proven strategies backed by analytics.</li>
+<li>Custom Solutions – Scalable strategies for startups & enterprises.</li>
+<li>Trust & Transparency – Ethical practices and data security.</li>
     </ul>
 
         </p>

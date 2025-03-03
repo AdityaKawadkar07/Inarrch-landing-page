@@ -66,10 +66,10 @@ const MBAAbout = () => {
         </p>
         <p>
         <ul>
-            <li>Marketing & Digital Strategy – Learn branding, SEO, social media, and analytics</li>
-            <li>Finance & Business Analytics – Work on financial modeling, budgeting & forecasting</li>
-            <li>Human Resource Management – Gain experience in recruitment, training & policies</li>
-            <li>Operations & Business Strategy – Understand process optimization & market analysis</li>
+            <li>Marketing & Digital Strategy</li>
+            <li>Finance & Business Analytics</li>
+            <li>Human Resource Management</li>
+            <li>Operations & Business Strategy</li>
         </ul>        
         </p>
         <p>
@@ -83,13 +83,12 @@ const MBAAbout = () => {
         <p>
         From MNCs to startups—every business values experience over theory!
         </p>
-        <p>Our MBA internship opens doors to:</p>
         <p>
         <ul>
-            <li>Top Corporate Jobs – Secure high-paying roles in global companies</li>
-            <li>Startup & Entrepreneurship – Build your own business with real insights</li>
-            <li>Consulting & Strategy Roles – Work with business leaders & decision-makers</li>
-            <li>Freelancing & Project-Based Work – Get flexible career opportunities</li>
+            <li>Top Corporate Jobs</li>
+            <li>Startup & Entrepreneurship</li>
+            <li>Consulting & Strategy Roles</li>
+            <li>Freelancing & Project-Based Work</li>
         </ul>
         </p>
         <p>

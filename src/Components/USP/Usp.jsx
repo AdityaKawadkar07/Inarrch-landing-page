@@ -5,6 +5,8 @@ import gallery_2 from '../../assets/gallery-2.png';
 import gallery_3 from '../../assets/gallery-3.png';
 import gallery_4 from '../../assets/gallery-4.png';
 import white_arrow from '../../assets/white-arrow.png';
+import { useNavigate } from 'react-router-dom';
+
 
 const images = [
   { src: gallery_1, text: "Skilled marketers, developers, and SEO specialists driving success." },
@@ -16,6 +18,7 @@ const images = [
 const Usp = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  const navigate = useNavigate()
   return (
     <div className='usp'>
       <div className="gallery">
@@ -36,7 +39,11 @@ const Usp = () => {
           </div>
         ))}
       </div>
-      <button className='btn dark-btn'>See more here <img src={white_arrow} alt="" /></button>
+      <button 
+        className='btn dark-btn' 
+        onClick={() => navigate("/graphic-design")} 
+        style={{ cursor: "pointer" }}
+        >See more here <img src={white_arrow} alt="" /></button>
     </div>
   );
 }

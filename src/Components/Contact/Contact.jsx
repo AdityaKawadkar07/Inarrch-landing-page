@@ -56,7 +56,13 @@ const Contact = () => {
                 <label>Email</label>
                 <textarea name="email"  placeholder='Enter your email id' required></textarea>
                 <label>Want to apply for??</label>
-                <input type="text" name='Program' placeholder='Enter the program you are interested to apply for?' required/>
+                <select name='program' required>
+                  <option value="" selected disabled>Choose program</option>
+                  <option value="Graphic Design">Graphic Designing</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="MBA Internship">MBA Internship</option>
+                </select>
                 <label>Write your messages here</label>
 
                 <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>

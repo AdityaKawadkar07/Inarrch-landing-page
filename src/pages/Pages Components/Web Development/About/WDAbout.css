@@ -72,6 +72,9 @@
 .wd-about-importance-left {
     flex: 1;
 }
+.wd-about-importance li{
+    width: 200px;
+}
 
 .wd-about-importance-right {
     flex: 1;
@@ -102,7 +105,9 @@
 .wd-about-used-left {
     flex: 1;
 }
-
+.wd-about-used li{
+    width: 200px;
+}
 .wd-about-used-right {
     flex: 1;
     text-align: center;

@@ -12,6 +12,8 @@ const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const isHomePage = location.pathname === "/";
+
   useEffect(() => {
     const handleScroll = () => {
       setSticky(window.scrollY > 50);
@@ -28,15 +30,6 @@ const Navbar = () => {
     setMobileMenu((prev) => !prev);
   };
 
-  const handleHomeClick = () => {
-    if (location.pathname === "/") {
-      // If already on the homepage, scroll smoothly
-      document.getElementById("hero")?.scrollIntoView({ behavior: "smooth" });
-    } else {
-      // If on another page, navigate to homepage
-      navigate("/");
-    }
-  };
 
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
@@ -45,11 +38,14 @@ const Navbar = () => {
         Inarrch Technologies
       </div>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li>
-          <span onClick={handleHomeClick} className="nav-link">
-            Home
-          </span>
-        </li>
+
+      <li>
+      {isHomePage ? (
+      <Link to="hero" smooth={true} offset={-150} duration={500}>Home</Link>
+    ) : (
+      <span onClick={() => navigate("/")} style={{ cursor: "pointer" }}>Home</span>
+    )}
+  </li>
         <li 
           className="dropdown"
           onMouseEnter={() => setDropdown(true)}
@@ -65,9 +61,13 @@ const Navbar = () => {
             </ul>
           )}
         </li>        
-        <li><Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link></li>
-        <li><Link to='usp' smooth={true} offset={-260} duration={500}>Why Choose Us</Link></li>
-        <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
+        {isHomePage && (
+          <>
+            <li><Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link></li>
+            <li><Link to='usp' smooth={true} offset={-260} duration={500}>Why Choose Us</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
+          </>
+        )}
         <li><Link to='contact' smooth={true} offset={-260} duration={500} className='enquire'>Contact Us</Link></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
