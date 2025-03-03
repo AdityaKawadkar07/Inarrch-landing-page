@@ -16,7 +16,7 @@ const GDAbout = () => {
         <div className="gd-about-right">
         {/* <h3>ABOUT US</h3> */}
         <h2>Introduction to Graphic Design</h2>
-        <p>"Every great brand starts with great design—are you ready to create impact?"
+        <p><h3>"Every great brand starts with great design—are you ready to create impact?"</h3>
         </p>
         <p>
         Graphic design is more than just making things look good—it’s about visual storytelling. From logos and branding to social media graphics and advertisements, design shapes how the world sees a brand.
@@ -34,18 +34,18 @@ const GDAbout = () => {
     <div className='gd-about-strategy'>
         <div className="gd-about-strategy-left">
     <h2>Graphic Design Strategy: The Blueprint for Creativity</h2>
-    <p>"Good design is intentional—learn how to create with purpose!"
+    <p>Good design is intentional—learn how to create with purpose!
         </p>
         <p>
         A great design doesn’t happen by accident. It involves:
         </p>
         <p>
         <ul>
-            <li>✅ <b>Understanding Brand Identity</b> – Designing for a purpose</li>
-            <li>✅ <b>Mastering Design Tools</b> – Photoshop, Illustrator, Canva & more</li>
-            <li>✅ <b>Learning Typography & Color Theory</b> – Crafting visually appealing layouts</li>
-            <li>✅ <b>Creating Engaging Visuals</b> – Social media, ads, packaging & web design.</li>
-            <li>✅ <b>Building a Strong Portfolio</b> – Showcase your skills to land jobs & clients</li>
+            <li><b>Understanding Brand Identity</b> – Designing for a purpose</li>
+            <li><b>Mastering Design Tools</b> – Photoshop, Illustrator, Canva & more</li>
+            <li><b>Learning Typography & Color Theory</b> – Crafting visually appealing layouts</li>
+            <li><b>Creating Engaging Visuals</b> – Social media, ads, packaging & web design.</li>
+            <li><b>Building a Strong Portfolio</b> – Showcase your skills to land jobs & clients</li>
         </ul>
         <h4>Our hands-on training at Inarrch Technologies ensures you gain practical experience and develop a unique design style that sets you apart in the industry.</h4>
         </p>
@@ -59,18 +59,19 @@ const GDAbout = () => {
     </div>
     <div className='gd-about-importance'>
     <h2>Why is Graphic Design Important?</h2>
-    <p>"First impressions matter—great design makes brands unforgettable!"
+    <p>First impressions matter—great design makes brands unforgettable!
         </p>
         <p>
         Graphic design is the backbone of branding and marketing. It helps businesses:
         </p>
         <p>
         <ul>
-            <li>✅ Build a Strong Identity – Stand out from competitors</li>
-            <li>✅ Increase Engagement – Grab audience attention</li>
-            <li>✅ Boost Conversions – Persuasive visuals drive sales</li>
-            <li>✅ Enhance Communication – Deliver messages effectivel</li>
-        </ul>        </p>
+            <li>Build a Strong Identity – Stand out from competitors</li>
+            <li>Increase Engagement – Grab audience attention</li>
+            <li>Boost Conversions – Persuasive visuals drive sales</li>
+            <li>Enhance Communication – Deliver messages effectivel</li>
+        </ul>        
+        </p>
         <p>
         With businesses investing heavily in design, skilled graphic designers are highly in demand. Our industry-focused training prepares you for exciting career opportunities in top companies and freelance markets.
         </p>
@@ -81,16 +82,16 @@ const GDAbout = () => {
     <div className='gd-about-used'>
         <h2>Where is Graphic Design Used?</h2>
         <p>
-        "From billboards to social media—design is everywhere!"
+        From billboards to social media—design is everywhere!
         </p>
         <p>Graphic design plays a crucial role in:</p>
         <p>
         <ul>
-            <li>✅ Branding & Logo Design – Identity creation</li>
-            <li>✅ Marketing & Advertising – Social media, posters & digital ads</li>
-            <li>✅ Website & UI/UX Design – Creating user-friendly interfaces</li>
-            <li>✅ Print Media – Magazines, brochures & packaging</li>
-            <li>✅ Freelancing & Remote Work – Work from anywhere, anytime</li>
+            <li>Branding & Logo Design – Identity creation</li>
+            <li>Marketing & Advertising – Social media, posters & digital ads</li>
+            <li>Website & UI/UX Design – Creating user-friendly interfaces</li>
+            <li>Print Media – Magazines, brochures & packaging</li>
+            <li>Freelancing & Remote Work – Work from anywhere, anytime</li>
         </ul>
         </p>
         <p>
@@ -104,7 +105,7 @@ const GDAbout = () => {
     </div>
     <div className='gd-about-conclusion'>
         <h2>Conclusion: Design the Future—Your Future!</h2>
-        <p>"Every designer was once a beginner—start your journey today!"</p>
+        <p>Every designer was once a beginner—start your journey today!</p>
         <p>
             Graphic design is a high-demand career with limitless growth opportunities. Whether you want to become a brand designer, UI/UX expert, ad creator, or freelancer, this course will give you the skills, tools, and confidence to succeed.
         </p>

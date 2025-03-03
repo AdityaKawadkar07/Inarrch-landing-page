@@ -32,18 +32,18 @@ const DMAbout = () => {
     <div className='dm-about-strategy'>
         <div className="dm-about-strategy-left">
     <h2>Digital Marketing Strategy: The Key to Online Success</h2>
-    <p>"Marketing without a strategy is like driving without a map—where are you headed?"
+    <p>Marketing without a strategy is like driving without a map—where are you headed?
         </p>
         <p>
         A winning digital marketing strategy combines:
         </p>
         <p>
         <ul>
-            <li>✅ <b>SEO </b>– Rank higher on Google</li>
-            <li>✅ <b>Social Media Marketing</b> – Engage with your audience</li>
-            <li>✅ <b>Content Marketing</b> – Tell your brand’s story</li>
-            <li>✅ <b>PPC Advertising</b> – Social media, ads, packaging & web design.</li>
-            <li>✅ <b>Email Marketing</b> – Convert leads into customers</li>
+            <li><b>SEO </b>– Rank higher on Google</li>
+            <li><b>Social Media Marketing</b> – Engage with your audience</li>
+            <li><b>Content Marketing</b> – Tell your brand’s story</li>
+            <li><b>PPC Advertising</b> – Social media, ads, packaging & web design.</li>
+            <li><b>Email Marketing</b> – Convert leads into customers</li>
         </ul>
         <h4>Our course at Inarrch Technologies dives deep into each of these areas, providing real-world case studies and practical training to help you build a result-driven strategy.</h4>
         </p>
@@ -57,17 +57,17 @@ const DMAbout = () => {
     </div>
     <div className='dm-about-importance'>
     <h2>Why is Digital Marketing Important?</h2>
-    <p>"94% of consumers research online before making a purchase—are businesses finding you?"
+    <p>94% of consumers research online before making a purchase—are businesses finding you?
         </p>
         <p>
         In a world where people spend hours on their screens, digital marketing is not an option; it’s a necessity. It helps businesses:
         </p>
         <p>
         <ul>
-            <li>✅ Increase Brand Awareness</li>
-            <li>✅ Generate Quality Leads</li>
-            <li>✅ Improve Customer Engagement</li>
-            <li>✅ Boost Sales & Revenue</li>
+            <li>Increase Brand Awareness</li>
+            <li>Generate Quality Leads</li>
+            <li>Improve Customer Engagement</li>
+            <li>Boost Sales & Revenue</li>
         </ul>        
         </p>
         <p>
@@ -80,16 +80,16 @@ const DMAbout = () => {
     <div className='dm-about-used'>
         <h2>Where is Digital Marketing Used?</h2>
         <p>
-        "From small businesses to Fortune 500 companies—everyone needs digital marketing!"
+        From small businesses to Fortune 500 companies—everyone needs digital marketing!
         </p>
         <p>Digital marketing is everywhere:</p>
         <p>
         <ul>
-            <li>✅ E-commerce – Drive traffic & sales</li>
-            <li>✅ Startups & SMEs – Build a strong online presence</li>
-            <li>✅ Corporate Businesses – Expand market reach</li>
-            <li>✅ Freelancing & Remote Jobs – Earn from anywhere</li>
-            <li>✅ Personal Branding – Establish your authority</li>
+            <li> E-commerce – Drive traffic & sales</li>
+            <li> Startups & SMEs – Build a strong online presence</li>
+            <li> Corporate Businesses – Expand market reach</li>
+            <li> Freelancing & Remote Jobs – Earn from anywhere</li>
+            <li> Personal Branding – Establish your authority</li>
         </ul>
         </p>
         <p>
@@ -102,7 +102,7 @@ const DMAbout = () => {
     </div>
     <div className='dm-about-conclusion'>
         <h2>Conclusion: The Future is Digital—Are You Ready?</h2>
-        <p>"The best time to start learning digital marketing was yesterday. The second best time is NOW!"</p>
+        <p>The best time to start learning digital marketing was yesterday. The second best time is NOW!</p>
         <p>
         Digital marketing is a game-changer, and skilled professionals are in high demand. Whether you’re a student, entrepreneur, job seeker, or freelancer, this course will open doors to endless career opportunities.        </p>
         <p>
